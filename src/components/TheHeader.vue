@@ -19,6 +19,8 @@
       <q-tab label="درباره ما"
              name="aboutUs" />
 
+      heloo
+
     </q-tabs>
   </q-header>
 </template>
