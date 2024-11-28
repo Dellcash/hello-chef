@@ -2,14 +2,35 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": [
     "source.fixAll.eslint"
   ],
+  "eslint.format.enable": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "vue"
-  ]
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#010101",
+    "statusBar.noFolderBackground": "#010101",
+    "statusBar.debuggingBackground": "#010101"
+  },
+  "window.title": "${dirty}${activeEditorMedium}",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.tabSize": 2,
+  "workbench.tree.renderIndentGuides": "none",
+  "prettier.eslintIntegration": true
 }
